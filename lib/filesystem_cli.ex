@@ -1,18 +1,17 @@
-defmodule FilesystemCli do
-  @moduledoc """
-  Documentation for FilesystemCli.
-  """
+defmodule Filesystem.CLI do
 
-  @doc """
-  Hello world.
+  def main(args) do
+    # TODO: Possible parameters
+    # options = [switches: [all: :string], aliases: [a: :all, t: :table_name]]
 
-  ## Examples
+    # Parse input arguments
+    #{ opts, _, _ } = OptionParser.parse(args, options)
 
-      iex> FilesystemCli.hello()
-      :world
+    # Get current directory
+    currentDirectory = File.cwd!()
 
-  """
-  def hello do
-    :world
+    # List files from directory
+    filesFromDir = File.ls!(currentDirectory)
+    IO.puts filesFromDir
   end
 end

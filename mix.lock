@@ -1,0 +1,4 @@
+%{
+  "ex_cli": {:hex, :ex_cli, "0.1.6", "30f97ef0751c75863c669cf34ebb689a5a3ebf9dafd2e73739f173fbd7561a53", [:mix], [], "hexpm"},
+  "sizeable": {:hex, :sizeable, "1.0.2", "625fe06a5dad188b52121a140286f1a6ae1adf350a942cf419499ecd8a11ee29", [:mix], [], "hexpm"},
+}

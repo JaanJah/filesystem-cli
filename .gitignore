@@ -22,3 +22,6 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 filesystem_cli-*.tar
 
+/.idea/
+filesystem_cli
+filesystem_cli.iml

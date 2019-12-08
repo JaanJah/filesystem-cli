@@ -1,8 +1,4 @@
-defmodule FilesystemCliTest do
+defmodule FilesystemTest do
   use ExUnit.Case
-  doctest FilesystemCli
-
-  test "greets the world" do
-    assert FilesystemCli.hello() == :world
-  end
+  doctest Filesystem.CLI
 end
